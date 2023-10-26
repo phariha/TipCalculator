@@ -33,10 +33,8 @@ class MainActivity : AppCompatActivity() {
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {}
 
             override fun afterTextChanged(s: Editable?) {
-//                costOfServiceEditText.setText("$" + costOfServiceEditText.text.toString());
                 tipButton.isEnabled = !s.isNullOrBlank()
                 serviceButton.isEnabled = !s.isNullOrBlank()
-
             }
         })
 
