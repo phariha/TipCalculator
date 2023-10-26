@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">TipCalc</string>
-    <string name="cost_of_service">Cost of Service</string>
-    <string name="service_question">Tip Percentage: </string>
+    <string name="cost_of_service">Amount</string>
+    <string name="service_question">Tip: </string>
     <string name="calculate">Calculate</string>
     <string name="tip_amount">Tip Amount: %s</string>
 </resources>
